@@ -11,6 +11,23 @@ const codes = [
   "a"
 ];
 
-function init() {
-  // your code here
+let index = 0;
+
+function init(e) {
+  const x = e.key;
+  
+  if (x === codes[index]) {
+    index++;
+    
+    if (index === codes.length) {
+      alert('Woohoo!');
+      
+      index = 0;
+    }
+  } else {
+    index = 0;
+  }
 }
+
+
+
