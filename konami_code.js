@@ -13,6 +13,8 @@ const codes = [
 
 let index = 0;
 
+
+
 function init(e) {
   const x = e.key;
   
