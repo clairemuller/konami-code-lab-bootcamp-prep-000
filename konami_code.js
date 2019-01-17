@@ -13,7 +13,7 @@ const codes = [
 
 let index = 0;
 
-
+document.body
 
 function init(e) {
   const x = e.key;
